@@ -15,7 +15,7 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 
 public class PokemonApiTest extends Simulation {
     // Case 1 - Como puedo testearlo en diferentes ambientes
-    String baseUrl = System.getProperty("baseUrl", "https://pokeapi.co/api/v2/pokemon");
+    String baseUrl = System.getProperty("baseUrl", "");
     // Define the data
     FeederBuilder.FileBased<Object> feeder = jsonFile("data/pokemon.json").circular();
     // Define preconditions
