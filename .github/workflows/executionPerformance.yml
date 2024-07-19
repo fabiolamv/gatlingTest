@@ -12,7 +12,7 @@ on:
 jobs:
   execpokemonapi:
     runs-on: ubuntu-latest
-    name: Execution Performance Pokemon API
+    name: Execution Performance Restful API
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
